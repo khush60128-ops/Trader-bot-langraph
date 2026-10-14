@@ -12,7 +12,7 @@
 id_rsa*
 secrets/
 credentials/
-
+TradeExecutorApp/
 # ── Databases & Session Data ──────────────────────────────────────────────────
 *.db
 *.sqlite
