@@ -1,0 +1,30 @@
+# Multi-Agent Financial Intelligence System (Updated)
+# Install: pip install -r requirements.txt
+
+# ── LangGraph core ────────────────────────────────────────────────────────────
+langgraph>=0.2.28
+langchain>=0.2.16
+langchain-core>=0.2.38
+langchain-google-genai>=2.0.0
+langchain-community>=0.2.16
+
+# ── SqliteSaver — moved to its own package in LangGraph >= 0.2 ───────────────
+# This fixes: ModuleNotFoundError: No module named 'langgraph.checkpoint.sqlite'
+langgraph-checkpoint-sqlite>=2.0.0
+
+# ── Search ────────────────────────────────────────────────────────────────────
+tavily-python>=0.4.0
+
+# ── Pydantic v2 ───────────────────────────────────────────────────────────────
+pydantic>=2.7.0
+
+# ── HTTP client (Mudrex API + CoinGecko price fetch) ─────────────────────────
+requests>=2.32.0
+
+# ── FastAPI server ────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# ── Environment / config ──────────────────────────────────────────────────────
+python-dotenv>=1.0.1
