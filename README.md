@@ -6,17 +6,6 @@ Production-grade LangGraph system with **Gemini 2.0 Flash** (text + vision),
 
 ---
 
-## What's New (vs Original)
-
-| Feature | Original | Updated |
-|---------|----------|---------|
-| Chart input | `--chart-url` required | Auto-fetched from FinViz; asks user only if it fails |
-| Risk flow | Risk rejected → session ends | Risk rejected → warns user, asks "Are you sure?" |
-| Human gate | `interrupt()` + resume via CLI | Inline interactive prompt (no restart needed) |
-| Trade confirm | Separate approve/reject step | Single prompt after analysis summary |
-
----
-
 ## Project Structure
 
 ```
