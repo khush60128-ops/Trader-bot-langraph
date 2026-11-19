@@ -1,4 +1,4 @@
-# Multi-Agent Financial Intelligence System (Updated)
+# Multi-Agent Financial Intelligence System
 
 Production-grade LangGraph system with **Gemini 2.0 Flash** (text + vision),
 **Tavily** real-time news search, **Mudrex** live trade execution, and
